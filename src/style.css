@@ -1,0 +1,45 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: large;
+  background-color: cadetblue;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid burlywood;
+  padding: 2.5px 5px;
+  line-height: 40px;
+  width: fit-content;
+  margin: auto;
+  margin-top: 30px;
+  background-color: burlywood;
+  color: black;
+}
+
+.icon__img {
+  width: 250px;
+  height: 250px;
+}
+
+.errorMessage {
+  background-color: red;
+  color: white;
+  border: 2px solid red;
+}
