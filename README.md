@@ -1,6 +1,6 @@
 # simple weither app
 
-**  insert your own api key  from  http://openweathermap.org **
+**insert your own api key  from  http://openweathermap.org**
 
 // run pnpm install
 
